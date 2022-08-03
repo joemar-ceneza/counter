@@ -1,0 +1,69 @@
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  background-color: #fff6e8;
+  color: #02023b;
+}
+
+main {
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+main .counter {
+  text-align: center;
+}
+
+main .counter h1,
+main .counter #value {
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+main .counter #value {
+  font-size: 4rem;
+}
+
+main .counter .buttons-container .btn {
+  text-transform: capitalize;
+  font-size: 1rem;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+main .counter .buttons-container .btn:hover {
+  background-color: #201f1f;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (max-width: 350px) {
+  main .counter h1 {
+    font-size: 2rem;
+  }
+  main .counter #value {
+    font-size: 3rem;
+  }
+  main .counter .buttons-container .btn {
+    font-size: 0.7rem;
+    margin: 0.5em;
+  }
+}
+/*# sourceMappingURL=style.css.map */
