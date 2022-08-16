@@ -1,6 +1,6 @@
 # Counter
 
-This Counter has a three button that can decrease, increase and reset the value of span made with HTML, CSS and JavaScript
+This Counter has a three button that can decrease, increase and reset the value of span made with HTML, CSS/Sass and JavaScript
 
 ## Table of contents
 
