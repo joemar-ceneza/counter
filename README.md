@@ -11,6 +11,9 @@ This Counter has a three button that can decrease, increase and reset the value 
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
+- [Front End Style](#front-end-style-guide)
+- [Colors](#colors)
+- [Typography](#typography)
 
 ## Overview
 
